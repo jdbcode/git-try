@@ -28,4 +28,7 @@ When using the RStudio git interface make sure to add user and email to the repo
 ##### Create branch on github and push to it in RStudio
 1. on github create a new branch
 2. in RStudio pull the main branch
-3. 
+3. create a local branch of the same new github branch name: `git checkout -b [branch name]`
+4. edit files, make commits (to new branch)
+5. initialize push to remote branch from shell: `git push -u origin [branch name]`
+6. now RStudio git GUI should work for pushing to remote branch
