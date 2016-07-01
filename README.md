@@ -2,7 +2,12 @@
 A place to try git functions without messing up good repos
 
 
-### Reminders
+
+#### Working with git-RStudio-GitHub
+
+*Good reference*: [Hadley's documentation](http://r-pkgs.had.co.nz/git.html])
+
+##### Author attribution
 When using the RStudio git interface make sure to add user and email to the repository's config file
 
 .git/config file
@@ -11,7 +16,7 @@ When using the RStudio git interface make sure to add user and email to the repo
 	name = jdbcode
 	email = jstnbraaten@gmail.com</pre>
 	
-##### working on branch in R
+##### Local branch creation and master merge in R with shell
 1. open the shell
 2. create branch: `git checkout -b [branch name]`
 3. edit files, make commits (to new branch)
@@ -19,3 +24,5 @@ When using the RStudio git interface make sure to add user and email to the repo
   * checkout the master: `git checkout master`
   * merge the new branch to master: `git merge [branch name]`
 5. push to remote master
+
+##### 
