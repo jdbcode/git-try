@@ -16,7 +16,7 @@ When using the RStudio git interface make sure to add user and email to the repo
 	name = jdbcode
 	email = jstnbraaten@gmail.com</pre>
 	
-##### Local branch creation and master merge in R with shell
+##### Local branch creation and master merge in RStudio with shell
 1. open the shell
 2. create branch: `git checkout -b [branch name]`
 3. edit files, make commits (to new branch)
@@ -25,4 +25,7 @@ When using the RStudio git interface make sure to add user and email to the repo
   * merge the new branch to master: `git merge [branch name]`
 5. push to remote master
 
-##### 
+##### Create branch on github and push to it in RStudio
+1. on github create a new branch
+2. in RStudio pull the main branch
+3. 
