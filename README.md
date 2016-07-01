@@ -17,6 +17,8 @@ When using the RStudio git interface make sure to add user and email to the repo
 	email = jstnbraaten@gmail.com</pre>
 	
 ##### Local branch creation and master merge in RStudio with shell
+*branch is not backed up on github*
+
 1. open the shell
 2. create branch: `git checkout -b [branch-name]`
 3. edit files, make commits (to new branch)
